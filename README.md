@@ -4,11 +4,6 @@
 Un simple jeu voxel écrit en Julia
 
 
-## Demo
-
-https://cdn.discordapp.com/attachments/782670444485935155/994658950286938132/unknown.png
-
-
 ## Run Locally
 
 #### Step 1
