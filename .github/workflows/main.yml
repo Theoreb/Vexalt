@@ -32,6 +32,8 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
           arch: ${{ matrix.julia-arch }}
-          
+      
+      - name: Build Project
+        
       - run: julia -e 'println("Hello, World!")'
         shell: bash
