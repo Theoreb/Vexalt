@@ -49,7 +49,8 @@ Start the game
 	
     - 8 bits pour le type (couleur encodé in-shader) [0;255]
 	- 5 bits * 3 pour les coordonnées [0;31]
-	- 15 bits pour l'index uniform du chunk
+	- AUCUN bits pour l'index uniforme
+             - Utilisation d'un vbo statique ou par glElementID
 	- Uniform de 32 bits
 	- Normal de la face directement dans le vbo statique des vertices
 
@@ -78,6 +79,9 @@ Start the game
     - 1 index de buckets fixes pour chaque element chunk
 	- Stockage d'une liste d'index de voxels vers un pointeur	[DataPointer, IndexPointer] (default = [DataPointer, currentPointer] )
 	- UShort / UInt
+
+8/ RefValue pour le paramètre index des DEIC
+    - Changement de l'index dynamique sans nouvelle allocation
 
 10 / [Lighting](https://web.archive.org/web/20200319071420/http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/)
 
