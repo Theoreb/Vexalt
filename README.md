@@ -44,6 +44,7 @@ Start the game
     - Utilisation d'une liste d'attente de taille fixe
 	- Un index uniform attribué pour chaque element fixe de la liste d'attente
 	- Utilisation propice aux threads
+        - voxel avec index en [Morton code](https://github.com/JaneliaSciComp/Morton.jl)
 
 2/ Optimiser la taille des vertex
 	
@@ -63,6 +64,7 @@ Start the game
 4/ Mise en cache
 	
     - Octotrees et compteur de voxel
+    - Morton.jl
 
 5/ Optimisation des détails - LOD (Level of detail)
 	
