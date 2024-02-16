@@ -1,7 +1,7 @@
 
 # Vexalt
 
-Un simple jeu voxel écrit en Julia
+Test for a 3D Graphic Engine in Julia
 
 
 ## Run Locally
